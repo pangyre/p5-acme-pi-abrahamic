@@ -1,6 +1,6 @@
 package Acme::Pi::Abrahamic;
 use 5.008003;
-our $VERSION = '7.0';
+our $VERSION = '7.7';
 
 sub import {
     shift;
@@ -17,13 +17,14 @@ __DATA__
 
 =head1 Name 
 
-Acme::Pi::Abrahamic - Pi as told in...
+Acme::Pi::Abrahamic - Pi as related by Abrahamic tradition.
 
 =head1 Synopsis
 
  use Acme::Pi::Abrahamic;
+ my $pi = pi();
 
-=head1 Description
+ perl -MAcme::Pi::Abrahamic -le 'print pi'
 
 =head1 Bugs
 
@@ -39,11 +40,12 @@ L<http://github.com/pangyre/p5-acme-pi-abrahamic>.
 
 =head1 Author
 
-Ashley Pond V E<middot> ashley.pond.v@gmail.com E<middot> L<http://pangyresoft.com>.
+Ashley Pond V E<middot> ashley@cpan.org E<middot> L<http://pangyresoft.com>.
 
 =head1 License
 
-You may redistribute and modify this package under the same terms as Perl itself.
+You may redistribute and modify this package under the same terms as
+Perl itself but only an agent of the Adversary would do so.
 
 =head1 Disclaimer of Warranty
 
