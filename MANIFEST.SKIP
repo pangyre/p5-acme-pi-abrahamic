@@ -10,8 +10,12 @@ tmp/
 .bak$
 Makefile$
 MANIFEST.perl$
+MANIFEST.SKIP$
 \.old$
 ^blib/
 ^pm_to_blib
 .DS_Store
 \#
+.yml$
+.json$
+

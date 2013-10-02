@@ -1,6 +1,6 @@
 package Acme::Pi::Abrahamic;
 use 5.008003;
-our $VERSION = '7.7';
+our $VERSION = '7.77';
 
 sub import {
     shift;
@@ -71,4 +71,3 @@ such holder or other party has been advised of the possibility of
 such damages.
 
 =cut
-
