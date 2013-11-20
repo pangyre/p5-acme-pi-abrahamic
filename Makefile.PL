@@ -3,7 +3,7 @@ use inc::Module::Install;
 
 name "Acme-Pi-Abrahamic";
 all_from "lib/Acme/Pi/Abrahamic.pm";
-repository "git://github.com/pangyre/p5-acme-pi-abrahamic-";
+repository "git://github.com/pangyre/p5-acme-pi-abrahamic";
 
 if ( $Module::Install::AUTHOR )
 {
